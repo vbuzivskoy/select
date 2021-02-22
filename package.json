@@ -1,0 +1,38 @@
+{
+  "name": "select",
+  "version": "1.0.0",
+  "description": "Select data from JSON object according to certain conditions",
+  "main": "src/index.js",
+  "bin": {
+    "select": "dist/bin/select.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "cross-env NODE_ENV=production babel src --out-dir dist"
+  },
+  "author": "Buzivskoy Vyacheslav",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-shebang": "^1.0.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "commander": "^6.2.0",
+    "lodash": "^4.17.20",
+    "yup": "^0.30.0"
+  }
+}

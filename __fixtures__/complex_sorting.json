@@ -1,0 +1,8 @@
+{
+  "data": [
+    { "name": "John", "email": "john2@mail.com" },
+    { "name": "Jane", "email": "jane@mail.com" },
+    { "name": "John", "email": "john1@mail.com" }
+  ],
+  "condition": { "sort_by": ["name", "email"] }
+}
